@@ -1,0 +1,17 @@
+/* Style the green hyperlink */
+a.green-link {
+    color: green;
+  }
+  
+  /* Italic style for "Me Neither!" using child type selector */
+  #child-type-selectors > h3.me-neither {
+    font-style: italic;
+  }
+  
+  /* Custom style for "Not Me!" heading */
+  .custom-heading {
+    color: #a5b669;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
