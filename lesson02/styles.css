@@ -1,0 +1,18 @@
+a.green-link {
+  color: green;
+}
+#child-type-selectors > h3.me-neither {
+  font-style: italic;
+}
+.custom-heading {
+  color: #a5b669;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.9em;
+  color: #555;
+}
