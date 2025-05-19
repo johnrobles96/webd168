@@ -1,0 +1,32 @@
+caption {
+  caption-side: top;
+}
+
+.table-dark {
+  --bs-table-bg: #6e1e23;
+}
+
+.btn-custom {
+  background-color: #6e1e23;
+  color: #fff;
+  border: none;
+}
+.btn-custom:hover {
+  background-color: #461316;
+}
+
+header {
+  background-color: #6e1e23 !important;
+  background-image: none;
+}
+
+.rating i.bi-star-fill.text-primary {
+  color: #c8a951 !important;
+}
+
+@media (max-width: 768px) {
+  section {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}/*# sourceMappingURL=custom.css.map */
