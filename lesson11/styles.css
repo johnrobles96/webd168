@@ -1,0 +1,45 @@
+/* General page styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background: #a5b669;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Section headings */
+h2 {
+    color: #a5b669;
+}
+
+/* Image styling */
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    max-width: 100%;
+    opacity: 0.5;
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+
+    &:hover {
+        opacity: 1;
+        transform: scale(1.05);
+    }
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #555;
+}
